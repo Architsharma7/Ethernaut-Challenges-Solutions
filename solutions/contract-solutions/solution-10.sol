@@ -4,7 +4,7 @@ pragma solidity ^0.8.0;
 /** This elevator won't let you reach the top of your building. Right?
 Sometimes solidity is not good at keeping promises.
 This Elevator expects to be used from a Building.
- **/
+**/
 
 interface Building {
   function isLastFloor(uint) external returns (bool);
